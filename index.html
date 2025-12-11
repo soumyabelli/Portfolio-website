@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soumya Yallappa Belli - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link rel="stylesheet" href="./assets/newcss.css" />
+</head>
+
+<body oncontextmenu="return false">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Soumya yallappa belli</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact-Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <!-- Home Section -->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/soumya-yallappa-belli-69369029a" target="_blank" class="home__social-icon">
+              <i class="fab fa-linkedin-in home__icon"></i>
+            </a>
+            <a href="https://github.com/soumyabelli/worldwide-billionaires.git" target="_blank" class="home__social-icon">
+              <i class="fab fa-github-alt home__icon"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <div class="home__photo">
+              <img src="./assets/img/img.jpg" alt="Soumya Yallappa Belli" class="home__photo-img" />
+            </div>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Soumya yallappa belli</h1>
+            <h3 class="home__subtitle">Master in computer application Student</h3>
+            <p class="home__description">
+              A second-year postgraduate student at
+              <strong>Poorna Pragna Institute Of Management College </strong>, Udupi
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+      <div class="about__container container grid">
+        <img src="./my photos/soumya.jpg" alt="Soumya Yallappa Belli" class="about__img" />
+        <div class="about__data">
+          <p class="about__description">
+            I'm a Second-year postgraduate in MCA, passionate about technology. I have a self-motivated and can-do attitude, thriving in challenging and dynamic environments. Seeking a competitive position to enhance my skills and contribute to a professional organization. I'm very much passionate to learn new stuff that interests me and can help me to get better.
+          </p>
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">08.30</span>
+              <span class="about__info-name">Aggregate <br />CGPA</span>
+            </div>
+            <div>
+              <span class="about__info-title">03</span>
+              <span class="about__info-name">Projects</span>
+            </div>
+            <div>
+              <span class="about__info-title">02</span>
+              <span class="about__info-name">months <br />Internships</span>
+            </div>
+          </div>
+          <div class="about__buttons">
+            <a download="" href="./soumya/soumya resume.pdf" class="button button--flex">
+              Download CV<i class="fas fa-download button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My technical level</span>
+      <div class="skills__container container grid">
+        <div>
+          <!-- Programming Languages -->
+          <div class="skills__content skills__open">
+            <div class="skills__header">
+              <i class="fas fa-pencil-ruler skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Programming Languages</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">C</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Java</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">JavaScript</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Python</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">HTML</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Css</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- IT Constructs -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-code skills__icon"></i>
+              <div>
+                <h1 class="skills__title">IT Constructs</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">DBMS</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">DS & Algorithms</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">OOP</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">OS</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Technologies -->
+          <div class="skills__content skills__close">
+            <div class="skills__header">
+              <i class="fas fa-swatchbook skills__icon"></i>
+              <div>
+                <h1 class="skills__title">Technologies</h1>
+              </div>
+              <i class="uil uil-angle-down skills__arrow"></i>
+            </div>
+            <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">Git</h3>
+                </div>
+              </div>
+               <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">GitHub</h3>
+                </div>
+              </div>
+               <div class="skills__list grid">
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">React.js</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">MySQL</h3>
+                </div>
+              </div>
+              <div class="skills__data">
+                <div class="skills__titles">
+                  <h3 class="skills__name">NodeJs</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Qualification Section -->
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+      <div class="qualification__container container grid services__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!-- Education Content -->
+          <div class="qualification__content qualifiation__active services__content" data-content id="education">
+            <!-- Qualification 2 - Class 12th -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">First MCA</h3>
+                <span class="qualification__subtitle"> <br />Poornapragna Institute Of Managemnet,udupi</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2025
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">MCA 1 year Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Subjects studied: oops, DCCN, Python, Java, Data structure, ADBMS.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 7.6 CGPA</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Qualification 1 - SSLC -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">SSLC</h3>
+                <span class="qualification__subtitle">Nehru International Public school,guledgud <br />High School</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2019
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Class 10th Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Subjects studied: Science, Maths, English, Social Studies,Kannada.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 66%</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Champions in inter-house kadaddi,volleyball</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!-- Qualification 2 - Class 12th -->
+            <div class="qualification__data">
+              <div></div>
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Class 12th</h3>
+                <span class="qualification__subtitle"> <br />Government pu college for girls,udupi</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2021
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">Class 12th Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Subjects studied: Physics, Chemistry, Maths, English, Biology, Kannada.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 74%</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <!-- Qualification 3 - Degree -->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Degree</h3>
+                <span class="qualification__subtitle">Dr. G. Shankar Government Women's First Grade College and Post-Graduate Study Centre.:2024, Udupi</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2024
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">College Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Studying core subjects of IT including Advanced data structure, Python, OOP, Operating systems, and Computer architecture.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Scored an aggregate of CGPA  of 8.31 .</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>I have completed B and C certificate with B grade in Navy NCC.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+
+          <!-- Project 1 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/quizAstra.jpg" alt="QuizAstra Android App" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">QuizAstra Android App</h3>
+              <p class="portfolio__description">
+                QuizAstra is an interactive Android quiz app featuring category-wise and difficulty-based questions. Includes admin controls, user leaderboards, and a user-friendly interface.
+              </p>
+              <a href="https://github.com/chatbca/QuizAstra" class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/chatbca/QuizAstra" class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/leave web image.jpeg" alt="Faculty Leave Management Website" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Faculty Leave Management Website</h3>
+              <p class="portfolio__description">
+                Real-time college leave management with role-based logins for admins, faculty, non-teaching staff, HODs, and directors. Tracks requests, approvals, and history in one place.
+              </p>
+              <a href="https://github.com/soumyabelli/Faculty-leave-management" class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/soumyabelli/Faculty-leave-management" class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/billioneir.jpg" alt="Worldwide Billionaire Analysis" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Worldwide Billionaire Analysis in 2021 Using K-Means Clustering Algorithm
+              </h3>
+              <p class="portfolio__description">
+                Worldwide Billionaire Analysis, is a project based on the This project involves exploratory data analysis of a global billionaire dataset to uncover insights into wealth distribution, industries, and demographics. It identifies key trends in wealth generation and factors contributing to financial success. The analysis highlights the economic and social impact of billionaire activities worldwide. Overall, it offers valuable guidance for investors, policymakers, and aspiring entrepreneurs.
+              </p>
+              <a href="https://github.com/soumyabelli/worldwide-billionaires.git" class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/soumyabelli/worldwide-billionaires.git" class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 4 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/ice.jpg" alt="Ice Cream Website" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Ice Cream Website</h3>
+              <p class="portfolio__description">
+                This project is an Icecream website that showcases a wide variety of delicious flavors and treats. It offers a delightful Browse experience with mouth-watering visuals and detailed product descriptions. Customers can explore seasonal specials, bestsellers, and place orders with ease. Icecream is the perfect destination for ice cream lovers seeking quality and convenience.
+              </p>
+              <a href="https://github.com/soumyabelli/Icream-Ice-cream-shop" class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/soumyabelli/Icream-Ice-cream-shop" class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project 5 -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="./assets/img/website.jpg" alt="Portfolio Website" class="portfolio__img" />
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">Portfolio website</h3>
+              <p class="portfolio__description">
+                A portfolio website is a personal platform that showcases an individual's skills, projects, achievements, and professional background. It serves as a digital resume, allowing visitors to explore work samples, download a CV, and get in touch easily. Ideal for students, freelancers, and professionals, it highlights expertise and creativity. A well-designed portfolio website leaves a strong first impression and enhances career opportunities.
+              </p>
+              <a href="https://github.com/soumyabelli/Portfolio-website" class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://github.com/soumyabelli/Portfolio-website" class="button button--flex button--small portfolio__button">
+                See Live
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper Arrows -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <!-- Swiper Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="fas fa-phone contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Contact Me</h3>
+              <span class="contact__subtitle">9945650664</span>
+            </div>
+          </div>
+          <div class="contact__information">
+            <i class="fas fa-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">bellisoumya@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact__information">
+            <i class="fas fa-map-marker-alt contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Udupi, Karnataka, India</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="content__label">Name</label>
+              <input type="text" id="name" class="contact__input" />
+            </div>
+            <div class="contact__content">
+              <label for="company" class="content__label">Company</label>
+              <input type="text" id="company" class="contact__input" />
+            </div>
+            <div class="contact__content">
+              <label for="email" class="content__label">Email</label>
+              <input type="email" id="email" class="contact__input" />
+            </div>
+          </div>
+          <div class="contact__content">
+            <label for="message" class="content__label">Message</label>
+            <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+          <div>
+            <a href="mailto:bellisoumya@gmail.com?subject=Inquiry from Portfolio Website&body=Hello Soumya," class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Soumya yallappa belli</h1>
+          <span class="footer__subtitle">Poorna Prana Institute Of Management, Udupi</span>
+        </div>
+        <ul class="footer__links">
+          <li>
+            <a href="#qualification" class="footer__link">Qualification</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact-Me</a>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=pnkieym" class="footer__social" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <p class="footer__copy">&#169; soumya. All rights reserved</p>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#home" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    // Dark/Light Theme
+    const themeButton = document.getElementById('theme-button');
+    const darkTheme = 'dark-theme';
+    const iconTheme = 'uil-sun';
+    
+    // Previously selected topic (if user selected)
+    const selectedTheme = localStorage.getItem('selected-theme');
+    const selectedIcon = localStorage.getItem('selected-icon');
+    
+    // We obtain the current theme that the interface has by validating the dark-theme class
+    const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+    const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun';
+    
+    // We validate if the user previously chose a topic
+    if (selectedTheme) {
+      // If the validation is fulfilled, we ask what the issue was to know if we activated or deactivated the dark
+      document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
+      themeButton.classList[selectedIcon === 'uil-moon' ? 'add' : 'remove'](iconTheme);
+    }
+    
+    // Activate / deactivate the theme manually with the button
+    themeButton.addEventListener('click', () => {
+      // Add or remove the dark / icon theme
+      document.body.classList.toggle(darkTheme);
+      themeButton.classList.toggle(iconTheme);
+      // We save the theme and the current icon that the user chose
+      localStorage.setItem('selected-theme', getCurrentTheme());
+      localStorage.setItem('selected-icon', getCurrentIcon());
+    });
+
+    // Navigation Menu
+    const navMenu = document.getElementById('nav-menu'),
+          navToggle = document.getElementById('nav-toggle'),
+          navClose = document.getElementById('nav-close');
+
+    // Menu Show
+    if(navToggle) {
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu');
+      });
+    }
+
+    // Menu Hidden
+    if(navClose) {
+      navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu');
+      });
+    }
+
+    // Remove menu on click
+    const navLink = document.querySelectorAll('.nav__link');
+    function linkAction() {
+      const navMenu = document.getElementById('nav-menu');
+      navMenu.classList.remove('show-menu');
+    }
+    navLink.forEach(n => n.addEventListener('click', linkAction));
+
+    // Qualification Tabs
+    const tabs = document.querySelectorAll('[data-target]'),
+          tabContents = document.querySelectorAll('[data-content]');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = document.querySelector(tab.dataset.target);
+        
+        tabContents.forEach(tabContent => {
+          tabContent.classList.remove('qualifiation__active');
+        });
+        target.classList.add('qualifiation__active');
+        
+        tabs.forEach(tab => {
+          tab.classList.remove('qualification__active');
+        });
+        tab.classList.add('qualification__active');
+      });
+    });
+
+    // Qualification Modal
+    const modalViews = document.querySelectorAll('.services__modal'),
+          modalBtns = document.querySelectorAll('.services__button'),
+          modalCloses = document.querySelectorAll('.services__modal-close');
+
+    let modal = function(modalClick) {
+      modalViews[modalClick].classList.add('active-modal');
+    }
+
+    modalBtns.forEach((modalBtn, i) => {
+      modalBtn.addEventListener('click', () => {
+        modal(i);
+      });
+    });
+
+    modalCloses.forEach((modalClose) => {
+      modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalView) => {
+          modalView.classList.remove('active-modal');
+        });
+      });
+    });
+
+    // Skills Accordion
+    const skillsContent = document.getElementsByClassName('skills__content'),
+          skillsHeader = document.querySelectorAll('.skills__header');
+
+    function toggleSkills() {
+      let itemClass = this.parentNode.className;
+      
+      for(i = 0; i < skillsContent.length; i++) {
+        skillsContent[i].className = 'skills__content skills__close';
+      }
+      
+      if(itemClass === 'skills__content skills__close') {
+        this.parentNode.className = 'skills__content skills__open';
+      }
+    }
+
+    skillsHeader.forEach((el) => {
+      el.addEventListener('click', toggleSkills);
+    });
+
+    // Portfolio Swiper
+    let swiper = new Swiper('.portfolio__container', {
+      loop: true,
+      spaceBetween: 24,
+      grabCursor: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      breakpoints: {
+        560: {
+          slidesPerView: 2,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 48,
+        },
+      },
+    });
+
+    // Scroll Sections Active Link
+    const sections = document.querySelectorAll('section[id]');
+
+    function scrollActive() {
+      const scrollY = window.pageYOffset;
+
+      sections.forEach(current => {
+        const sectionHeight = current.offsetHeight;
+        const sectionTop = current.offsetTop - 50;
+        sectionId = current.getAttribute('id');
+
+        if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+          document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
+        } else {
+          document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link');
+        }
+      });
+    }
+    window.addEventListener('scroll', scrollActive);
+
+    // Show Scroll Up
+    function scrollUp() {
+      const scrollUp = document.getElementById('scroll-up');
+      if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll');
+    }
+    window.addEventListener('scroll', scrollUp);
+
+  </script>
+</body>
+</html>
